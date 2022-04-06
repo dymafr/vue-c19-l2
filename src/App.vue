@@ -9,7 +9,7 @@ import { seed40articles, seed } from './data/seed';
 
 <template>
   <div class="app-container">
-    <TheHeader @navigate="navigate" :page="state.page" class="header" />
+    <TheHeader class="header" />
     <div class="app-content">
       <router-view v-slot="{ Component }">
         <template v-if="Component">
