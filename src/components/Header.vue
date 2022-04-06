@@ -93,7 +93,7 @@ header {
     cursor: pointer;
   }
 
-  a.active {
+  a.router-link-active {
     text-decoration: underline;
   }
 
