@@ -51,6 +51,8 @@ watch(page, () => {
 .grid {
   display: grid;
   grid-template-columns: 1fr;
+  grid-auto-rows: 400px;
+  gap: 20px;
   @include m.md {
     grid-template-columns: 1fr 1fr;
   }
@@ -60,7 +62,5 @@ watch(page, () => {
   @include m.xl {
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
-  grid-auto-rows: 400px;
-  gap: 20px;
 }
 </style>
